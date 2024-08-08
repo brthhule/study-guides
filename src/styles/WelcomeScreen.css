@@ -1,0 +1,24 @@
+.courseBox {
+  height: 100px;
+  width: 300px;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 50px;
+  align-content: center;
+  text-align: center;
+  font-weight: 900;
+  font-style: normal;
+  border-radius: 50px;
+}
+
+.courseBox:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#coursesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
